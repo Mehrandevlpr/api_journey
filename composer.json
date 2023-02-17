@@ -1,0 +1,17 @@
+{
+    "name": "mehran/iranapi",
+    "require": {
+        "catfan/medoo": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Mehrandevlpr",
+            "email": "mehranhamzeh74@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}

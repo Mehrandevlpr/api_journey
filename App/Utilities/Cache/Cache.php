@@ -12,7 +12,6 @@ class Cache {
 
      public static function init(){
           self::$cache_file = CACHE_DIR . md5($_SERVER['REQUEST_URI']) . ".json";
-          \var_dump(self::$cache_file);
           if ($_SERVER['REQUEST_METHOD'] != 'GET')
               self::$cache_enabled = 0;
      }
